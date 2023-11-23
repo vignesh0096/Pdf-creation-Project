@@ -437,19 +437,3 @@ from num2words import num2words
 # pdf.cell(0,10,'7810021451')
 #
 # pdf.output('pdf.pdf')
-#
-# # data = [
-# #     ["S.No", "HSN/SAC", "Description", "MRP","Dis%","Dis.Price","QTY","Total"],
-# #     ["1", "", "EC4M", "10000","50","5000","1","5000"],
-# #     ["2", "", "EC8M", "20000", "50", "10000", "1", "10000"],
-# #     ["3", "", "EC4MF2", "30000","50","15000","1","15000"],
-# #     ["4", "", "EC6M", "20000", "50", "10000", "1", "10000"],
-# #     ["5", "", "EC6M", "20000", "50", "10000", "1", "10000"],
-# #     ["6", "", "EC6M", "20000", "50", "10000", "1", "10000"],
-# # ]
-# # # pdf.set_font('times','',10)
-# # pdf.set_xy(11,110)
-# # pdf.create_table(table_data=data,cell_width=22,x_start='C')
-#
-word = num2words(20)
-print(word)

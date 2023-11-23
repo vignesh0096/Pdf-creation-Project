@@ -1,13 +1,10 @@
 from django.shortcuts import render
 from .serializer import *
 from rest_framework.generics import CreateAPIView
-from fpdf import FPDF
 from rest_framework import status
 from rest_framework.response import Response
 from fpdf import FPDF
 from datetime import datetime
-from django.shortcuts import get_object_or_404
-from .models import *
 from num2words import num2words
 
 
