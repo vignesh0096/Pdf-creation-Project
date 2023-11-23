@@ -296,7 +296,7 @@ class PdfCreation(CreateAPIView):
                 pdf.set_font('times', '', 10)
                 pdf.rect(105, y, 45, 5)
                 pdf.set_xy(105, y)
-                pdf.cell(0, 5, 'Installation')
+                pdf.cell(0, 5, 'Transport')
 
             pdf.set_font('times', '', 10)
             pdf.rect(165, y, 35, 5)
