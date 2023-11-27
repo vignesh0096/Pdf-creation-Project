@@ -1,6 +1,4 @@
 from fpdf import FPDF
-import tabulate
-from num2words import num2words
 
 
 def axis(y,pdf):
